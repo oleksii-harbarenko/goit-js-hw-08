@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.gallery {
+  padding: 24px 156px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 1440px;
+  background-color: #fff;
+  list-style: none;
+  margin: 0;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+
+.modal {
+  width: 1440px;
+  height: 696px;
+}
+
+.modal-img {
+  width: 1112px;
+  height: 640px;
+}
