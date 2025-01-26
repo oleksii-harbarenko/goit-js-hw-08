@@ -100,4 +100,10 @@ function imageClick(e) {
   const modal = basicLightbox.create(markup);
 
   modal.show();
+
+  const modalElement = document.querySelector(".modal");
+
+  modalElement.addEventListener("click", () => {
+    modal.close();
+  });
 }
